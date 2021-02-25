@@ -1,0 +1,55 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2298#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:13: error: : expected
+                case 1 -> move = "up";
+                      ^
+    Main.java:13: error: illegal start of expression
+                case 1 -> move = "up";
+                       ^
+    Main.java:14: error: : expected
+                case 2 -> move = "down";
+                      ^
+    Main.java:14: error: illegal start of expression
+                case 2 -> move = "down";
+                       ^
+    Main.java:15: error: : expected
+                case 3 -> move = "left";
+                      ^
+    Main.java:15: error: illegal start of expression
+                case 3 -> move = "left";
+                       ^
+    Main.java:16: error: : expected
+                case 4 -> move = "right";
+                      ^
+    Main.java:16: error: illegal start of expression
+                case 4 -> move = "right";
+                       ^
+    Main.java:17: error: : expected
+                case 0 -> {
+                      ^
+    Main.java:17: error: illegal start of expression
+                case 0 -> {
+                       ^
+    Main.java:21: error: : expected
+                default -> {
+                       ^
+    Main.java:21: error: illegal start of expression
+                default -> {
+                        ^
+    12 errors
+  time: Sun, 14 Feb 2021 02:33:21 UTC
+record: -1
